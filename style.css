@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .skill-bar {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .skill {
+    margin-bottom: 15px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .skill-level {
+    background-color: #e0e0e0;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .skill-level-bar {
+    width: 0;
+    height: 100%;
+    background-color:cadetblue;
+    transition: width 1s ease-in-out;
+  }
+  
+h1{
+    text-align: center;
+    color:#3877FF;
+}  
+h1 span{
+    color:#5DB9EE;
+}
